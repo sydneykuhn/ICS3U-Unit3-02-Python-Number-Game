@@ -7,12 +7,11 @@
 
 def main():
 
-    # this function it the game
+    # this function is the game
 
     # input
     guessed_number = int(input("Guess a number between 0-9: "))
 
-    # process
     # process & output
     if guessed_number == 5:
         print("You guessed correctly!")
